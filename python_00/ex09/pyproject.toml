@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "a package made for 42 piscine project"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    { name = "Aysha Rashid", email = "ayal-ras.student@42abudhabi.ae" }
+]
+
+license = { text = "MIT" }
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/aysha-rashid/ft_package"
+
+[tool.setuptools]
+packages = ["ft_package"]
